@@ -1,0 +1,352 @@
+.JECE nav .modeWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-left: auto;
+}
+.JECE nav {
+    display: flex;
+    align-items: flex-start;
+    padding: 1rem;
+}
+.JECE nav .jeceImg{
+  width: 5.7rem;
+  height: 5.7rem;
+}
+.JECE nav h3{
+    cursor: pointer;
+}
+.JECE nav button{
+    padding:0.8rem 1.8rem;
+    margin-top: 1rem;
+    border: none;
+    cursor: pointer;
+    font-weight: bolder;
+    font-size: 1rem;
+    color: #fff;
+    outline: none;
+    background-color: cyan;
+    border-radius: 2rem;
+    margin: 0rem 1.5rem;
+    display: flex;
+    align-items: center;
+}
+button:hover{
+    background-color: rgb(13, 239, 239);
+}
+.JECE nav .modeImg{
+    width: 1.35rem;
+    height: 1.35rem;
+    margin-left: 1rem;
+    cursor: pointer;
+}
+.darkMode{
+    background-color: rgb(23, 23, 92);
+    width: fit-content;
+    color: white;
+    margin: auto;
+    margin-bottom: 7.5rem;
+    border-radius: 1rem;
+}
+.lightMode{
+    background-color: white;
+    width: fit-content;
+    color: black;
+    margin: auto;
+    border-radius: 1rem;
+    margin-bottom: 7.5rem;
+}
+h2{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.Container{
+    width: 54rem;
+    padding: 2.5rem 3rem;
+    border-radius: 1rem;
+    box-shadow: 0px 0px 14px 9px rgb(242, 237, 237);
+}
+
+.intro{
+    padding-bottom: 1.2rem;
+    border-bottom: 1px solid grey;
+}
+.info .wrapper{
+    display: flex;
+    align-items: center;
+}
+
+
+.info img{
+    width: 2.8rem;
+    height: 2.8rem;
+    margin-left: 1rem;
+    padding: 0.7rem;
+    background-color: rgb(137, 137, 137);
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.flex{
+    display: flex;
+    align-items: flex-start;
+}
+
+.heading{
+    margin-top: 2.2rem;
+}
+.info .wrapper h4{
+    width: 5.5rem;
+}
+.heading .vr{
+    width: 1px;
+    height: 2.7rem;
+    background-color: gray;
+    margin-left: 8rem;
+}
+.pointer{
+    margin-left: 2.9rem;
+}
+.info p{
+    width: 0.6rem;
+    height: 0.6rem;
+    border-radius: 50%;
+    background-color: gray;
+    /* border: 1px solid grey; */
+}
+.info .active{
+    background-color: aqua;
+}
+.pointer .vr{
+    width: 1px;
+    height: 4.85rem;
+    background-color: gray;
+    margin-left: 0.3rem;
+}
+.pointer .firstvr,
+.pointer .lastvr{
+    height: 3.3rem;
+}
+@media only screen and (max-width:890px){
+    .Container{
+        width: 100%;
+    }
+    .darkMode,
+    .lightMode{
+        width: 95%;
+    }
+}
+@media only screen and (max-width:712px){
+  .info img{
+    margin-left: 0.5rem;
+    width: 2.4rem;
+    height: 2.4rem;
+    padding: 0.5rem;
+  }
+  .heading .vr{
+    height: 2.7rem;
+    margin-left: 6.7rem;
+    }
+    .info p{
+        width: 0.55rem;
+        height: 0.55rem;
+    }
+    .pointer .vr{
+        height: 4.55rem;
+        margin-left: 0.3rem;
+    }
+    .pointer .firstvr,
+    .pointer .lastvr{
+        height: 3.1rem;
+    }
+  .info .wrapper h4{
+    width: 5rem;
+    font-size: 0.9rem;
+    }
+    .pointer{
+        margin-left: 2rem;
+    }
+     .Container{
+        padding: 2.4rem 1.5rem;
+    }
+  
+
+}
+@media only screen and (max-width:543px){
+  .info img{
+    margin-left: 0rem;
+    width: 2.1rem;
+    height: 2.1rem;
+    padding: 0.4rem;
+  }
+  .heading .vr{
+    height: 3rem;
+    margin-left: 5.5rem;
+    }
+    .pointer .vr{
+        height: 4.65rem;
+        margin-left: 0.3rem;
+    }
+    .pointer .firstvr,
+    .pointer .lastvr{
+        height: 3rem;
+    }
+  .info .wrapper h4{
+    width: 4.4rem;
+    font-size: 0.85rem;
+    }
+    .pointer{
+        margin-left: 1rem;
+    }
+     .Container{
+        padding: 2.4rem 1.5rem;
+    }
+  
+
+}
+@media only screen and (max-width:493px){
+    h2{
+        font-size: 1.3rem;
+    }
+    .intro p{
+        font-size: 0.82rem;
+    }
+    .JECE nav button{
+        padding:0.5rem 1rem;
+        margin: 0rem 0.7rem;
+    }
+    .JECE nav h3{
+        font-size: 1.05rem;
+    }
+    .JECE nav .jeceImg{
+        width: 5.2rem;
+        height: 5.2rem;
+      }
+}
+@media only screen and (max-width:421px){
+  .info img{
+    margin-left: 0rem;
+    width: 1.8rem;
+    height: 1.8rem;
+    padding: 0.3rem;
+  }
+  .heading .vr{
+    height: 2.35rem;
+    margin-left: 5.35rem;
+    }
+    .pointer .vr{
+        height: 4rem;
+        margin-left: 0.3rem;
+    }
+    .pointer .firstvr,
+    .pointer .lastvr{
+        height: 3rem;
+    }
+    .pointer{
+        margin-left: 1rem;
+    }
+     .Container{
+        padding: 2.4rem 0.8rem;
+        border-radius: 0.3rem;
+    }
+    .lightMode,
+    .darkMode{
+        border-radius: 0.3rem;
+    }
+    .Container h2{
+        font-size: 1.3rem;
+    }
+    .Container p{
+        font-size: 0.9rem;
+    }
+    .darkMode,
+    .lightMode{
+        width: 100%;
+    }
+}
+@media only screen and (max-width:403px){
+    .JECE nav{
+        padding: 1rem 0.4rem;
+    }
+    .JECE nav button{
+        padding:0.6rem 0.8rem;
+        margin: 0rem 0.5rem;
+    }
+    .JECE nav button .modeImg{
+        width: 1.1rem;
+        height: 1.1rem;
+        margin-left: 0.8rem;
+    }
+    .JECE nav .jeceImg{
+        width: 5rem;
+        height: 5rem;
+      }
+}
+@media only screen and (max-width:363px){
+ 
+  .heading .vr{
+    height: 2.35rem;
+    margin-left: 4.8rem;
+    }
+    .info .wrapper h4{
+        width: 3.9rem;
+        font-size: 0.75rem;
+        }
+    .pointer .vr{
+        height: 3.76rem;
+        margin-left: 0.3rem;
+    }
+    .pointer .firstvr,
+    .pointer .lastvr{
+        height: 2.85rem;
+    }
+    .pointer{
+        margin-left: 0.5rem;
+    }
+     .Container{
+        padding: 2.4rem 0.5rem;
+    }
+  .Container p{
+    font-size: 0.8rem;
+  }
+  .JECE nav button{
+    padding:0.5rem 1rem;
+    margin: 0rem 0.6rem;
+}
+.JECE nav h3{
+    font-size: 1rem;
+}
+
+}
+@media only screen and (max-width:329px){
+    .JECE nav{
+        padding: 1rem 0.4rem;
+    }
+    .JECE nav button{
+        padding:0.6rem 0.7rem;
+    }
+    .JECE nav button .modeImg{
+        width: 1rem;
+        height: 1rem;
+        margin-left: 0.5rem;
+    }
+    .JECE nav .jeceImg{
+        width: 4.9rem;
+        height: 4.9rem;
+      }
+}
+@media only screen and (max-width:309px){
+    .JECE nav{
+        padding: 1rem 0.2rem;
+    }
+    .JECE nav button{
+        padding:0.45rem 0.6rem;
+        margin-right: 0.2rem;
+    }
+    .JECE nav button .modeImg{
+        margin-left: 0.3rem;
+    }
+    .JECE nav .jeceImg{
+        width: 4.3rem;
+        height: 4.3rem;
+      }
+}
