@@ -189,7 +189,7 @@ const Container = ({handlePage}) => {
             </div>
             <div className="pointer">
                <div className='info'>
-                   <div className="firstvr vr"></div>
+                   <div className="firstvr"></div>
                      <p   className="circle1  active"></p>
                     <div className="vr"></div>
                </div>
@@ -207,7 +207,7 @@ const Container = ({handlePage}) => {
                </div>
                <div className='info'>
                         <p  className="circle5"></p>
-                        <div className="vr lastvr"></div>
+                        <div className="lastvr"></div>
                </div>
             </div>
             <div className='inputsContainer'>
