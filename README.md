@@ -17,6 +17,5 @@ React hooks used:  UseRef,UseState
 
 Hosting platform:  Netlify
 
-Website Link:   lorem
-Github repository Link:   https://github.com/tobiayinmiro23/JECE-project
+Website Link:  https://645d03e11c8c27000838761a--whimsical-sunburst-96ea1c.netlify.app/
 My portfolio Link:   https://tobiayinmiro23.github.io/portfolio/
