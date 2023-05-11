@@ -125,6 +125,9 @@ h2{
 .pointer .firstvr,
 .pointer .lastvr{
     height: 3.3rem;
+     background-color: gray;
+    margin-left: 0.3rem;
+    width: 1px;
 }
 @media only screen and (max-width:890px){
     .Container{
@@ -257,10 +260,6 @@ h2{
     }
     .Container p{
         font-size: 0.9rem;
-    }
-    .darkMode,
-    .lightMode{
-        width: 100%;
     }
 }
 @media only screen and (max-width:403px){
