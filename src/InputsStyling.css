@@ -1,0 +1,86 @@
+.inputsContainer{
+    margin-left: 3rem;
+    width: 100%;
+}
+.inputsContainer div{
+    margin: 1rem 0rem;
+}
+.inputsContainer p{
+    /* color: #575656; */
+    font-size: 0.75rem;
+}
+.inputsContainer h2{
+    margin: 1.2rem 0rem;
+}
+.inputsContainer input{
+    width: 100%;
+    display: block;
+    padding:0.8rem 0.5rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 0.2rem;
+    background: none;
+    outline: none;
+    border: 2px solid cyan;
+    margin: 1rem 0rem;
+    border-radius: 1rem;
+}
+.inputsContainer input:focus{
+    background-color: rgb(236, 248, 248);
+}
+.darkMode .inputsContainer input:focus{
+    background-color: darkblue;
+    color: white;
+}
+.inputsContainer button{
+    padding:1.2rem 2rem;
+    margin-top: 1rem;
+    border: none;
+    cursor: pointer;
+    font-weight: bolder;
+    font-size: 0.7rem;
+    background-color: #fff;
+    outline: none;
+    background-color: cyan;
+    border-radius: 2rem;
+  
+}
+button:hover{
+    background-color: rgb(13, 239, 239);
+}
+.inputsContainer  .inputInfo{
+    border-bottom: 1px solid grey;
+    padding-bottom: 2rem;
+}
+.inputsContainer .btnContainer{
+    text-align: end;
+}
+@media only screen and (max-width:832px){
+    .inputsContainer{
+        margin-left: 1rem;
+    }
+}
+@media only screen and (max-width:493px){
+    .inputsContainer button{
+        padding:0.9rem 1.8rem;
+    }
+}
+@media only screen and (max-width:421px){
+    .inputsContainer{
+        margin-left: 0.5rem;
+    }
+}
+@media only screen and (max-width:391px){
+    .inputsContainer input{
+    padding:0.7rem 0.5rem;
+    }
+    .inputsContainer button{
+        padding:0.7rem 1.6rem;
+    }
+}
+@media only screen and (max-width:351px){
+    .inputsContainer input{
+    padding:0.6rem 0.5rem;
+    }
+  
+}
