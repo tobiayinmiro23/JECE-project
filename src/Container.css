@@ -118,13 +118,13 @@ h2{
 }
 .pointer .vr{
     width: 1px;
-    height: 4.85rem !important;
+    height: 4.85rem ;
     background-color: gray;
     margin-left: 0.3rem;
 }
 .pointer .firstvr,
 .pointer .lastvr{
-    height: 3.3rem !important;
+    height: 3.3rem ;
     background-color: gray;
     margin-left: 0.3rem;
     width: 1px;
@@ -154,12 +154,12 @@ h2{
         height: 0.55rem;
     }
     .pointer .vr{
-        height: 4.55rem !important;
+        height: 4.55rem ;
         margin-left: 0.3rem;
     }
     .pointer .firstvr,
     .pointer .lastvr{
-        height: 3.1rem !important;
+        height: 3.1rem ;
     }
   .info .wrapper h4{
     width: 5rem;
@@ -186,12 +186,12 @@ h2{
     margin-left: 5.5rem;
     }
     .pointer .vr{
-        height: 4.65rem !important;
+        height: 4.65rem ;
         margin-left: 0.3rem;
     }
     .pointer .firstvr,
     .pointer .lastvr{
-        height: 3rem !important;
+        height: 3rem ;
     }
   .info .wrapper h4{
     width: 4.4rem;
@@ -239,12 +239,12 @@ h2{
     margin-left: 5.35rem;
     }
     .pointer .vr{
-        height: 3.899rem !important;
+        height: 3.899rem ;
         margin-left: 0.3rem;
     }
     .pointer .firstvr,
     .pointer .lastvr{
-        height: 3rem !important;
+        height: 3rem ;
     }
     .pointer{
         margin-left: 1rem;
@@ -259,9 +259,6 @@ h2{
     }
     .Container h2{
         font-size: 1.3rem;
-    }
-    .Container p{
-        font-size: 0.9rem;
     }
 }
 @media only screen and (max-width:403px){
@@ -283,28 +280,18 @@ h2{
       }
 }
 @media only screen and (max-width:363px){
- 
   .heading .vr{
-    height: 2.35rem;
-    margin-left: 4.8rem;
+    margin-left: 4.95rem;
     }
     .info .wrapper h4{
         width: 3.9rem;
         font-size: 0.75rem;
         }
-    .pointer .vr{
-        height: 3.36rem !important;
-        margin-left: 0.3rem;
-    }
-    .pointer .firstvr,
-    .pointer .lastvr{
-        height: 4rem !important;
-    }
     .pointer{
         margin-left: 0.5rem;
     }
      .Container{
-        padding: 2.4rem 0.5rem;
+        padding: 2.4rem 0.35rem;
     }
   .Container p{
     font-size: 0.8rem;
@@ -312,10 +299,14 @@ h2{
   .JECE nav button{
     padding:0.5rem 1rem;
     margin: 0rem 0.6rem;
-}
-.JECE nav h3{
-    font-size: 1rem;
-}
+    }
+    .JECE nav h3{
+        font-size: 1rem;
+    }
+    .lightMode,
+    .darkMode{
+        width: 97%;
+    }
 
 }
 @media only screen and (max-width:329px){
