@@ -7,7 +7,7 @@
 .JECE nav {
     display: flex;
     align-items: flex-start;
-    padding: 1rem;
+    padding: 1rem;n
 }
 .JECE nav .jeceImg{
   width: 5.7rem;
@@ -296,7 +296,7 @@ h2{
     }
     .pointer .firstvr,
     .pointer .lastvr{
-        height: 2.85rem !important;
+        height: 2.45rem !important;
     }
     .pointer{
         margin-left: 0.5rem;
