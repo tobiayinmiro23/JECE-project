@@ -82,5 +82,11 @@ button:hover{
     .inputsContainer input{
     padding:0.6rem 0.5rem;
     }
+    
+  @media only screen and (max-width:320px){
+    .inputsContainer h2{
+    font-size: 1.16rem;
+    }
   
+}
 }
