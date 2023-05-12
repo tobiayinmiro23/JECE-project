@@ -50,7 +50,7 @@ const About = ({handlePage}) => {
                 <div>
                     <div className="wrapper">
                     <h4>Hosting platform</h4>
-                    <p>Netlify</p>
+                    <p>Vecrel</p>
                     </div>
                 </div>
                 <div>
