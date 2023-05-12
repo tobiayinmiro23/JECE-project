@@ -239,12 +239,12 @@ h2{
     margin-left: 5.35rem;
     }
     .pointer .vr{
-        height: 3.92rem !important;
+        height: 3.9rem !important;
         margin-left: 0.3rem;
     }
     .pointer .firstvr,
     .pointer .lastvr{
-        height: 2.99rem !important;
+        height: 3rem !important;
     }
     .pointer{
         margin-left: 1rem;
