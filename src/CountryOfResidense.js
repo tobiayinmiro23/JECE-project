@@ -1,16 +1,14 @@
 import React,{useState,useRef} from 'react'
 import './InputsStyling.css'
 
-const CountryOfResidense = ({forCountryOfResidence}) => {
-  const [value, setvalue] = useState('')
+const CountryOfResidense = () => {
+ const [value, setvalue] = useState('')
   const input=useRef()
   const handleButton=()=>{
-    if(value.trim() !== ''){
-      forCountryOfResidence()
-    }else{
+    if(value.trim() === ''){
       input.current.focus()
     }
-  }
+  } 
   return (
     <div className='inputsContainer'>
        <div className='inputInfo'>
