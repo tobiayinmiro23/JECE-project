@@ -1,14 +1,17 @@
 import React,{useState,useRef} from 'react'
 import './InputsStyling.css'
 
-const HouseAddress = () => {
+const HouseAddress = ({forHouseAddress}) => {
   const [value, setvalue] = useState('')
   const input=useRef()
   const handleButton=()=>{
-    if(value.trim() === ''){
+    if(value.trim() !== ''){
+      forHouseAddress()
+    }else{
       input.current.focus()
     }
   }
+  
   return (
     <div className='inputsContainer'>
        <div className='inputInfo'>
