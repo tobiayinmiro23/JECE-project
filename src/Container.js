@@ -43,7 +43,8 @@ const Container = ({handlePage}) => {
     }
     // for the button in the Telephone Number component
     const forTelephoneNo=()=>{
-        setfield('countryofresidence')
+        setfield('houseaddress')
+        
         let allImg=document.querySelectorAll('.info .wrapper img')
         let activeImg=document.querySelector('.info .wrapper .img4')
         let allPointer=document.querySelectorAll('.pointer .info p')
@@ -57,9 +58,9 @@ const Container = ({handlePage}) => {
     activePointer.classList.add('active')
     activeImg.classList.add('active')
     }
-    // for the button in the Country Of Residence component
-    const forCountryOfResidence=()=>{
-        setfield('houseaddress')
+    // for the button in the House address component
+    const forHouseAddress=()=>{
+        setfield('countryofresidence')
         let allImg=document.querySelectorAll('.info .wrapper img')
         let activeImg=document.querySelector('.info .wrapper .img5')
         let allPointer=document.querySelectorAll('.pointer .info p')
@@ -214,8 +215,8 @@ const Container = ({handlePage}) => {
                 {field === 'name' && <Name forName={forName}/>}
                 {field === 'citylocation' && <CityLocation forCityLocation={forCityLocation}/>}
                 {field === 'telephoneno' && <TelephoneNumber forTelephoneNo={forTelephoneNo}/>}
-                {field === 'countryofresidence' && <CountryOfResidense forCountryOfResidence={forCountryOfResidence}/>}
-                {field === 'houseaddress' && <HouseAddress/>}
+                {field === 'countryofresidence' && <CountryOfResidense />}
+                {field === 'houseaddress' && <HouseAddress forHouseAddress={forHouseAddress}/>}
             </div>
         </div>
     </div>
